@@ -7,22 +7,22 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="1291dp"
-        android:layout_height="1231dp"
+        android:id="@+id/imageView5"
+        android:layout_width="1690dp"
+        android:layout_height="1224dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.544"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.294"
         app:srcCompat="@drawable/universo" />
 
     <ImageView
         android:id="@+id/mete"
-        android:layout_width="126dp"
-        android:layout_height="153dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/cr7" />
+        android:layout_width="118dp"
+        android:layout_height="291dp"
+        app:srcCompat="@drawable/me"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="290dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
